@@ -42,6 +42,6 @@ export const posts: Post[] = [
     date: "02. April 2026",
     author: "A&K Consulting",
     readTime: "8 Min.",
-    gradient: "from-emerald-500 to-emerald-800",
+    gradient: "from-emerald-500 to-emerald-900",
   },
 ];

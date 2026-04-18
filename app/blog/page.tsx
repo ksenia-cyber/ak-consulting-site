@@ -24,7 +24,7 @@ export default function BlogPage() {
     <>
       <Nav />
       <main className="flex-1">
-        <section className="bg-gradient-to-br from-emerald-50 via-white to-white pt-16 pb-10">
+        <section className="bg-white pt-16 pb-10">
           <div className="container-xl px-6">
             <div className="kicker mb-3">Blog</div>
             <h1 className="font-heading text-4xl md:text-5xl font-extrabold text-slate-900 max-w-3xl leading-tight">
@@ -76,7 +76,7 @@ export default function BlogPage() {
                         {p.readTime}
                       </span>
                     </div>
-                    <h2 className="font-heading font-bold text-lg text-slate-900 leading-snug group-hover:text-emerald-700 transition-colors">
+                    <h2 className="font-heading font-bold text-lg text-slate-900 leading-snug group-hover:text-emerald-800 transition-colors">
                       {p.title}
                     </h2>
                     <p className="text-slate-600 text-sm mt-3 leading-relaxed line-clamp-3">

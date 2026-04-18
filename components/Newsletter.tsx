@@ -6,7 +6,7 @@ import { Mail } from "lucide-react";
 export default function Newsletter() {
   const [sent, setSent] = useState(false);
   return (
-    <section className="bg-emerald-50 py-14">
+    <section className="bg-white py-14 border-t border-slate-100">
       <div className="container-xl px-6 grid lg:grid-cols-2 gap-10 items-center">
         <div>
           <div className="kicker mb-2">Newsletter</div>
@@ -39,22 +39,22 @@ export default function Newsletter() {
               placeholder="ihre.email@unternehmen.de"
               className="flex-1 rounded-lg border border-slate-200 px-3 py-2.5 text-sm focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 outline-none transition"
             />
-            <button className="bg-emerald-700 hover:bg-emerald-800 text-white font-semibold px-5 py-2.5 rounded-lg transition whitespace-nowrap">
+            <button className="bg-emerald-800 hover:bg-emerald-900 text-white font-semibold px-5 py-2.5 rounded-lg transition whitespace-nowrap">
               Abonnieren
             </button>
           </div>
           <label className="mt-3 flex items-start gap-2 text-xs text-slate-500">
-            <input type="checkbox" required className="mt-0.5 accent-emerald-700" />
+            <input type="checkbox" required className="mt-0.5 accent-emerald-800" />
             <span>
               Ich stimme zu, Newsletter zu erhalten, und habe die{" "}
-              <a href="/datenschutz" className="text-emerald-700 underline">
+              <a href="/datenschutz" className="text-emerald-800 underline">
                 Datenschutzerklärung
               </a>{" "}
               zur Kenntnis genommen.
             </span>
           </label>
           {sent && (
-            <div className="mt-3 p-2.5 bg-emerald-50 text-emerald-700 text-xs rounded-md border border-emerald-200">
+            <div className="mt-3 p-2.5 bg-emerald-50 text-emerald-800 text-xs rounded-md border border-emerald-200">
               ✓ Demo: Anmeldung erfasst. (Im Mockup nicht verbunden.)
             </div>
           )}

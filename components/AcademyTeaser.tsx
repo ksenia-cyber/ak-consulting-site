@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function AcademyTeaser() {
   return (
-    <section id="academy" className="section bg-slate-50">
+    <section id="academy" className="section bg-white border-t border-slate-100">
       <div className="container-xl">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="kicker mb-3">Academy</div>

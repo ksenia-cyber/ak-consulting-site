@@ -13,8 +13,8 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="section bg-emerald-700 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-emerald-700 via-emerald-800 to-emerald-900" />
+    <section id="contact" className="section bg-emerald-800 relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-emerald-800 via-emerald-900 to-emerald-900" />
       <div className="absolute top-10 right-10 w-72 h-72 bg-emerald-500 rounded-full blur-3xl opacity-40" />
       <div className="absolute bottom-10 left-10 w-96 h-96 bg-emerald-400 rounded-full blur-3xl opacity-30" />
 
@@ -100,11 +100,11 @@ export default function Contact() {
             <input
               type="checkbox"
               required
-              className="mt-0.5 accent-emerald-700"
+              className="mt-0.5 accent-emerald-800"
             />
             <span>
               Ich stimme der Verarbeitung meiner Daten gemäß{" "}
-              <a href="/datenschutz" className="text-emerald-700 underline">
+              <a href="/datenschutz" className="text-emerald-800 underline">
                 Datenschutzerklärung
               </a>{" "}
               zu.
@@ -113,14 +113,14 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="mt-6 w-full inline-flex items-center justify-center gap-2 bg-emerald-700 hover:bg-emerald-800 text-white font-semibold py-3 rounded-lg transition shadow-lg shadow-emerald-700/30"
+            className="mt-6 w-full inline-flex items-center justify-center gap-2 bg-emerald-800 hover:bg-emerald-900 text-white font-semibold py-3 rounded-lg transition shadow-lg shadow-emerald-800/30"
           >
             <Send className="w-4 h-4" />
             Anfrage senden
           </button>
 
           {sent && (
-            <div className="mt-4 p-3 bg-emerald-50 text-emerald-700 text-sm rounded-lg border border-emerald-200">
+            <div className="mt-4 p-3 bg-emerald-50 text-emerald-800 text-sm rounded-lg border border-emerald-200">
               ✓ Demo: Anfrage erfasst. (Formular ist im Mockup nicht verbunden.)
             </div>
           )}

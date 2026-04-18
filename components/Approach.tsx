@@ -18,7 +18,7 @@ const steps = [
 
 export default function Approach() {
   return (
-    <section className="section bg-slate-50">
+    <section className="section bg-white">
       <div className="container-xl">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="kicker mb-3">Unser Ansatz</div>

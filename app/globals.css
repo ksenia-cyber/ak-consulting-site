@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-primary: #047857;
+  --color-primary: #065f46;
   --color-primary-dark: #065f46;
   --color-primary-soft: #d1fae5;
   --color-dark: #1f2937;
@@ -33,16 +33,16 @@ body {
   gap: 0.5rem;
   padding: 0.875rem 1.5rem;
   border-radius: 0.75rem;
-  background: #047857;
+  background: #065f46;
   color: #fff;
   font-weight: 600;
   transition: all 0.15s;
-  box-shadow: 0 4px 16px rgba(4, 120, 87, 0.25);
+  box-shadow: 0 4px 16px rgba(6, 95, 70, 0.25);
 }
 .btn-primary:hover {
-  background: #065f46;
+  background: #064e3b;
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(4, 120, 87, 0.35);
+  box-shadow: 0 6px 20px rgba(6, 78, 59, 0.35);
 }
 
 .btn-outline {
@@ -58,8 +58,8 @@ body {
   transition: all 0.15s;
 }
 .btn-outline:hover {
-  border-color: #047857;
-  color: #047857;
+  border-color: #065f46;
+  color: #065f46;
 }
 
 .section {
@@ -85,7 +85,7 @@ body {
 }
 .tile:hover {
   border-color: #a7f3d0;
-  box-shadow: 0 10px 30px -10px rgba(4, 120, 87, 0.2);
+  box-shadow: 0 10px 30px -10px rgba(6, 95, 70, 0.2);
   transform: translateY(-2px);
 }
 
@@ -94,7 +94,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #047857;
+  color: #065f46;
 }
 
 .check-item {
@@ -118,7 +118,7 @@ html {
 }
 
 .gradient-avatar {
-  background: linear-gradient(135deg, #047857 0%, #10b981 100%);
+  background: linear-gradient(135deg, #065f46 0%, #10b981 100%);
   color: #fff;
   display: inline-flex;
   align-items: center;
