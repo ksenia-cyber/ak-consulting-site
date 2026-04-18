@@ -37,7 +37,7 @@ export default function Approach() {
               key={s.n}
               className="bg-white rounded-2xl p-8 border border-slate-100 relative"
             >
-              <div className="font-heading text-5xl font-black text-indigo-100 absolute top-4 right-6 select-none">
+              <div className="font-heading text-5xl font-black text-emerald-100 absolute top-4 right-6 select-none">
                 {s.n}
               </div>
               <h3 className="font-heading font-bold text-xl text-slate-900 mb-3 relative">

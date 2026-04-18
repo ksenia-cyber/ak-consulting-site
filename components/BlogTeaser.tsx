@@ -15,7 +15,7 @@ export default function BlogTeaser() {
           </div>
           <Link
             href="/blog"
-            className="inline-flex items-center gap-1.5 text-indigo-600 font-semibold hover:gap-2.5 transition-all"
+            className="inline-flex items-center gap-1.5 text-emerald-700 font-semibold hover:gap-2.5 transition-all"
           >
             Alle Beiträge
             <ArrowRight className="w-4 h-4" />
@@ -44,7 +44,7 @@ export default function BlogTeaser() {
                     {p.readTime}
                   </span>
                 </div>
-                <h3 className="font-heading font-bold text-lg text-slate-900 leading-snug group-hover:text-indigo-600 transition-colors">
+                <h3 className="font-heading font-bold text-lg text-slate-900 leading-snug group-hover:text-emerald-700 transition-colors">
                   {p.title}
                 </h3>
                 <p className="text-slate-600 text-sm mt-3 leading-relaxed line-clamp-3">

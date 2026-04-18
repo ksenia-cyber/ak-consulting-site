@@ -36,7 +36,7 @@ export default function CourseCard({ c }: { c: Course }) {
           </div>
           <Link
             href={`/academy#${c.slug}`}
-            className="inline-flex items-center gap-1.5 text-indigo-600 font-semibold text-sm hover:gap-2.5 transition-all"
+            className="inline-flex items-center gap-1.5 text-emerald-700 font-semibold text-sm hover:gap-2.5 transition-all"
           >
             Kurs ansehen
             <ArrowRight className="w-4 h-4" />

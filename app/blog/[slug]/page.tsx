@@ -36,7 +36,7 @@ export default async function BlogPost({
                 Zurück zum Blog
               </Link>
 
-              <span className="inline-block px-3 py-1 bg-indigo-50 text-indigo-700 rounded-full text-xs font-semibold">
+              <span className="inline-block px-3 py-1 bg-emerald-50 text-emerald-800 rounded-full text-xs font-semibold">
                 {post.category}
               </span>
               <h1 className="font-heading text-3xl md:text-4xl font-extrabold text-slate-900 mt-4 leading-tight">
@@ -89,11 +89,11 @@ export default async function BlogPost({
                   Fortsetzung des Themas.
                 </p>
 
-                <div className="mt-10 p-6 bg-indigo-50 rounded-xl border border-indigo-100">
-                  <div className="font-semibold text-indigo-900">
+                <div className="mt-10 p-6 bg-emerald-50 rounded-xl border border-emerald-100">
+                  <div className="font-semibold text-emerald-950">
                     Passende Beratung gesucht?
                   </div>
-                  <p className="text-indigo-800 text-sm mt-1">
+                  <p className="text-emerald-900 text-sm mt-1">
                     Wir zeigen Ihnen, wie Sie KI-Themen strategisch in Ihrem
                     Unternehmen verankern.
                   </p>

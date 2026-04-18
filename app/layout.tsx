@@ -1,17 +1,19 @@
 import type { Metadata } from "next";
-import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import { IBM_Plex_Sans, IBM_Plex_Serif } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const plexSans = IBM_Plex_Sans({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
-  variable: "--font-inter",
+  variable: "--font-plex-sans",
 });
 
-const jakarta = Plus_Jakarta_Sans({
+const plexSerif = IBM_Plex_Serif({
   subsets: ["latin"],
+  weight: ["500", "600", "700"],
   display: "swap",
-  variable: "--font-jakarta",
+  variable: "--font-plex-serif",
 });
 
 export const metadata: Metadata = {
@@ -42,7 +44,7 @@ export default function RootLayout({
   return (
     <html
       lang="de"
-      className={`${inter.variable} ${jakarta.variable} h-full antialiased`}
+      className={`${plexSans.variable} ${plexSerif.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white">{children}</body>
     </html>

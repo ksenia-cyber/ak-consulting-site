@@ -61,7 +61,7 @@ export default function Services() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((s) => (
             <div key={s.title} className="tile group">
-              <div className="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center mb-5">
+              <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center mb-5">
                 <s.icon className="w-6 h-6" />
               </div>
               <h3 className="font-heading font-bold text-lg text-slate-900 mb-2">
@@ -70,7 +70,7 @@ export default function Services() {
               <p className="text-slate-600 leading-relaxed mb-5">{s.text}</p>
               <Link
                 href="#contact"
-                className="inline-flex items-center gap-1.5 text-indigo-600 font-semibold text-sm group-hover:gap-2.5 transition-all"
+                className="inline-flex items-center gap-1.5 text-emerald-700 font-semibold text-sm group-hover:gap-2.5 transition-all"
               >
                 Beratung anfragen
                 <ArrowRight className="w-4 h-4" />

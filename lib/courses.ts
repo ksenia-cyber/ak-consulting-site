@@ -24,7 +24,7 @@ export const courses: Course[] = [
       "Konkrete Schritte für den Unternehmenseinsatz",
     ],
     price: "ab 249 €",
-    image: "from-indigo-500 to-indigo-700",
+    image: "from-emerald-500 to-emerald-800",
   },
   {
     slug: "voice-ai",

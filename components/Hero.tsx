@@ -3,13 +3,13 @@ import { ArrowRight, BookOpen } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-indigo-50 via-white to-white">
+    <section className="relative overflow-hidden bg-gradient-to-br from-emerald-50 via-white to-white">
       <div className="container-xl grid lg:grid-cols-2 gap-12 items-center px-6 py-20 md:py-28">
         <div>
           <div className="kicker mb-5">Strategische KI-Beratung · DACH</div>
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-[1.1]">
             KI verstehen.<br />
-            <span className="text-indigo-600">Souverän entscheiden.</span>
+            <span className="text-emerald-700">Souverän entscheiden.</span>
           </h1>
           <p className="mt-6 text-lg text-slate-600 max-w-xl leading-relaxed">
             Wir zeigen Ihnen, wie künstliche Intelligenz in Ihrem Unternehmen
@@ -45,16 +45,16 @@ export default function Hero() {
 
         <div className="relative">
           <div className="aspect-square max-w-md mx-auto relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-indigo-500 to-indigo-700 rounded-3xl rotate-3" />
+            <div className="absolute inset-0 bg-gradient-to-br from-emerald-500 to-emerald-800 rounded-3xl rotate-3" />
             <div className="absolute inset-0 bg-white rounded-3xl border border-slate-100 shadow-2xl -rotate-3 flex items-center justify-center">
               <div className="text-center p-10">
-                <div className="text-7xl font-heading font-black text-indigo-600 mb-4">
+                <div className="text-7xl font-heading font-black text-emerald-700 mb-4">
                   A&amp;K
                 </div>
                 <div className="text-slate-600 text-sm uppercase tracking-widest">
                   Consulting
                 </div>
-                <div className="mt-6 inline-block px-4 py-2 bg-indigo-50 text-indigo-700 rounded-full text-xs font-semibold">
+                <div className="mt-6 inline-block px-4 py-2 bg-emerald-50 text-emerald-800 rounded-full text-xs font-semibold">
                   KI · Voice AI · Prompt Engineering
                 </div>
               </div>
