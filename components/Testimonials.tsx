@@ -30,7 +30,7 @@ export default function Testimonials() {
       <div className="container-xl">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="kicker mb-3">Stimmen</div>
-          <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-slate-900">
+          <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-slate-800">
             Was Kunden sagen
           </h2>
           <p className="mt-4 text-sm text-slate-500 italic">
@@ -57,7 +57,7 @@ export default function Testimonials() {
               <div className="mt-6 flex items-center gap-3 pt-5 border-t border-slate-200">
                 <div className="gradient-avatar text-sm">{t.initials}</div>
                 <div>
-                  <div className="font-semibold text-slate-900 text-sm">
+                  <div className="font-semibold text-slate-800 text-sm">
                     {t.name}
                   </div>
                   <div className="text-xs text-slate-500">{t.role}</div>

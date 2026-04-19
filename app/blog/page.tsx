@@ -27,7 +27,7 @@ export default function BlogPage() {
         <section className="bg-white pt-16 pb-10">
           <div className="container-xl px-6">
             <div className="kicker mb-3">Blog</div>
-            <h1 className="font-heading text-4xl md:text-5xl font-extrabold text-slate-900 max-w-3xl leading-tight">
+            <h1 className="font-heading text-4xl md:text-5xl font-extrabold text-slate-800 max-w-3xl leading-tight">
               Gedanken, Einschätzungen &amp; Orientierungshilfen
             </h1>
             <p className="mt-5 text-lg text-slate-600 max-w-2xl">
@@ -41,7 +41,7 @@ export default function BlogPage() {
                   key={c}
                   className={`text-sm px-4 py-1.5 rounded-full border transition ${
                     i === 0
-                      ? "bg-slate-900 text-white border-slate-900"
+                      ? "bg-slate-800 text-white border-slate-800"
                       : "bg-white text-slate-600 border-slate-200 hover:border-slate-400"
                   }`}
                 >
@@ -64,7 +64,7 @@ export default function BlogPage() {
                   <div
                     className={`h-48 bg-gradient-to-br ${p.gradient} relative flex items-end p-5`}
                   >
-                    <span className="inline-block px-3 py-1 bg-white/90 backdrop-blur rounded-full text-xs font-semibold text-slate-900">
+                    <span className="inline-block px-3 py-1 bg-white/90 backdrop-blur rounded-full text-xs font-semibold text-slate-800">
                       {p.category}
                     </span>
                   </div>
@@ -76,7 +76,7 @@ export default function BlogPage() {
                         {p.readTime}
                       </span>
                     </div>
-                    <h2 className="font-heading font-bold text-lg text-slate-900 leading-snug group-hover:text-slate-900 transition-colors">
+                    <h2 className="font-heading font-bold text-lg text-slate-800 leading-snug group-hover:text-slate-800 transition-colors">
                       {p.title}
                     </h2>
                     <p className="text-slate-600 text-sm mt-3 leading-relaxed line-clamp-3">

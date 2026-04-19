@@ -19,7 +19,7 @@ export default function AcademyPage() {
         <section className="bg-white pt-16 pb-12">
           <div className="container-xl px-6">
             <div className="kicker mb-3">Academy</div>
-            <h1 className="font-heading text-4xl md:text-5xl font-extrabold text-slate-900 max-w-3xl leading-tight">
+            <h1 className="font-heading text-4xl md:text-5xl font-extrabold text-slate-800 max-w-3xl leading-tight">
               Kurse für Entscheider &mdash; solides KI-Wissen aus der Praxis
             </h1>
             <p className="mt-5 text-lg text-slate-600 max-w-2xl">
@@ -54,7 +54,7 @@ export default function AcademyPage() {
                   </div>
 
                   <div className="md:col-span-2 p-7">
-                    <h2 className="font-heading font-bold text-2xl text-slate-900">
+                    <h2 className="font-heading font-bold text-2xl text-slate-800">
                       {c.title}
                     </h2>
                     <p className="text-slate-500 mt-1 italic">{c.subtitle}</p>
@@ -88,7 +88,7 @@ export default function AcademyPage() {
             </div>
 
             <div className="mt-14 rounded-2xl bg-slate-50 border border-slate-100 p-8 text-center">
-              <h3 className="font-heading font-bold text-xl text-slate-900">
+              <h3 className="font-heading font-bold text-xl text-slate-800">
                 Weitere Kurse folgen
               </h3>
               <p className="mt-2 text-slate-600 max-w-lg mx-auto">

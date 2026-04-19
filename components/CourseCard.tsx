@@ -8,13 +8,13 @@ export default function CourseCard({ c }: { c: Course }) {
       <div
         className={`h-40 bg-gradient-to-br ${c.image} relative flex items-end p-5`}
       >
-        <span className="inline-block px-3 py-1 bg-white/90 backdrop-blur rounded-full text-xs font-semibold text-slate-900">
+        <span className="inline-block px-3 py-1 bg-white/90 backdrop-blur rounded-full text-xs font-semibold text-slate-800">
           {c.category}
         </span>
       </div>
 
       <div className="p-6 flex-1 flex flex-col">
-        <h3 className="font-heading font-bold text-lg text-slate-900 leading-snug">
+        <h3 className="font-heading font-bold text-lg text-slate-800 leading-snug">
           {c.title}
         </h3>
         <p className="text-sm text-slate-500 mt-1 italic">{c.subtitle}</p>
@@ -31,12 +31,12 @@ export default function CourseCard({ c }: { c: Course }) {
         </ul>
 
         <div className="mt-6 pt-5 border-t border-slate-100 flex items-center justify-between">
-          <div className="text-slate-900 font-heading font-bold text-lg">
+          <div className="text-slate-800 font-heading font-bold text-lg">
             {c.price}
           </div>
           <Link
             href={`/academy#${c.slug}`}
-            className="inline-flex items-center gap-1.5 text-slate-900 font-semibold text-sm hover:gap-2.5 transition-all"
+            className="inline-flex items-center gap-1.5 text-slate-800 font-semibold text-sm hover:gap-2.5 transition-all"
           >
             Kurs ansehen
             <ArrowRight className="w-4 h-4" />

@@ -13,8 +13,8 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="section bg-slate-900 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-950" />
+    <section id="contact" className="section bg-slate-800 relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-900 to-slate-900" />
       <div className="absolute top-10 right-10 w-72 h-72 bg-amber-400 rounded-full blur-3xl opacity-40" />
       <div className="absolute bottom-10 left-10 w-96 h-96 bg-amber-300 rounded-full blur-3xl opacity-30" />
 
@@ -74,7 +74,7 @@ export default function Contact() {
           onSubmit={onSubmit}
           className="bg-white rounded-2xl p-7 md:p-8 shadow-2xl"
         >
-          <h3 className="font-heading font-bold text-xl text-slate-900 mb-6">
+          <h3 className="font-heading font-bold text-xl text-slate-800 mb-6">
             Beratung anfragen
           </h3>
 
@@ -100,11 +100,11 @@ export default function Contact() {
             <input
               type="checkbox"
               required
-              className="mt-0.5 accent-slate-900"
+              className="mt-0.5 accent-slate-800"
             />
             <span>
               Ich stimme der Verarbeitung meiner Daten gemäß{" "}
-              <a href="/datenschutz" className="text-slate-900 underline">
+              <a href="/datenschutz" className="text-slate-800 underline">
                 Datenschutzerklärung
               </a>{" "}
               zu.
@@ -113,14 +113,14 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="mt-6 w-full inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold py-3 rounded-lg transition shadow-lg shadow-slate-900/30"
+            className="mt-6 w-full inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-900 text-white font-semibold py-3 rounded-lg transition shadow-lg shadow-slate-800/30"
           >
             <Send className="w-4 h-4" />
             Anfrage senden
           </button>
 
           {sent && (
-            <div className="mt-4 p-3 bg-amber-50 text-slate-900 text-sm rounded-lg border border-amber-200">
+            <div className="mt-4 p-3 bg-amber-50 text-slate-800 text-sm rounded-lg border border-amber-200">
               ✓ Demo: Anfrage erfasst. (Formular ist im Mockup nicht verbunden.)
             </div>
           )}

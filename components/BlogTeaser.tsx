@@ -9,13 +9,13 @@ export default function BlogTeaser() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-12 gap-4">
           <div>
             <div className="kicker mb-3">Blog</div>
-            <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-slate-900">
+            <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-slate-800">
               Aktuelle Beiträge
             </h2>
           </div>
           <Link
             href="/blog"
-            className="inline-flex items-center gap-1.5 text-slate-900 font-semibold hover:gap-2.5 transition-all"
+            className="inline-flex items-center gap-1.5 text-slate-800 font-semibold hover:gap-2.5 transition-all"
           >
             Alle Beiträge
             <ArrowRight className="w-4 h-4" />
@@ -32,7 +32,7 @@ export default function BlogTeaser() {
               <div
                 className={`h-44 bg-gradient-to-br ${p.gradient} relative flex items-end p-5`}
               >
-                <span className="inline-block px-3 py-1 bg-white/90 backdrop-blur rounded-full text-xs font-semibold text-slate-900">
+                <span className="inline-block px-3 py-1 bg-white/90 backdrop-blur rounded-full text-xs font-semibold text-slate-800">
                   {p.category}
                 </span>
               </div>
@@ -44,7 +44,7 @@ export default function BlogTeaser() {
                     {p.readTime}
                   </span>
                 </div>
-                <h3 className="font-heading font-bold text-lg text-slate-900 leading-snug group-hover:text-slate-900 transition-colors">
+                <h3 className="font-heading font-bold text-lg text-slate-800 leading-snug group-hover:text-slate-800 transition-colors">
                   {p.title}
                 </h3>
                 <p className="text-slate-600 text-sm mt-3 leading-relaxed line-clamp-3">

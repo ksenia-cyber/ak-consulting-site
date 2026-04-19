@@ -22,7 +22,7 @@ export default function Approach() {
       <div className="container-xl">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="kicker mb-3">Unser Ansatz</div>
-          <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-slate-900">
+          <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-slate-800">
             In drei Schritten zur souveränen KI-Entscheidung
           </h2>
           <p className="mt-4 text-slate-600">
@@ -40,7 +40,7 @@ export default function Approach() {
               <div className="font-heading text-5xl font-black text-amber-100 absolute top-4 right-6 select-none">
                 {s.n}
               </div>
-              <h3 className="font-heading font-bold text-xl text-slate-900 mb-3 relative">
+              <h3 className="font-heading font-bold text-xl text-slate-800 mb-3 relative">
                 {s.title}
               </h3>
               <p className="text-slate-600 leading-relaxed relative">{s.text}</p>

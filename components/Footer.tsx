@@ -3,12 +3,12 @@ import { ExternalLink, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-900 text-slate-300 pt-14 pb-8">
+    <footer className="bg-slate-800 text-slate-300 pt-14 pb-8">
       <div className="container-xl px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-3">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-400 to-slate-950 text-white font-black flex items-center justify-center text-sm">
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-400 to-slate-900 text-white font-black flex items-center justify-center text-sm">
                 AK
               </div>
               <span className="font-heading font-bold text-white text-lg">

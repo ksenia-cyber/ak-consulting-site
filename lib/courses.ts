@@ -24,7 +24,7 @@ export const courses: Course[] = [
       "Konkrete Schritte für den Unternehmenseinsatz",
     ],
     price: "ab 249 €",
-    image: "from-amber-400 to-slate-950",
+    image: "from-amber-400 to-slate-900",
   },
   {
     slug: "voice-ai",
@@ -40,7 +40,7 @@ export const courses: Course[] = [
       "Entscheidungsrahmen für Ihren Fall",
     ],
     price: "ab 349 €",
-    image: "from-amber-400 to-slate-900",
+    image: "from-amber-400 to-slate-800",
   },
   {
     slug: "prompt-engineering",

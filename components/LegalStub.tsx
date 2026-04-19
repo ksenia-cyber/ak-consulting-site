@@ -14,7 +14,7 @@ export default function LegalStub({
       <main className="flex-1">
         <section className="container-xl px-6 py-16 max-w-3xl">
           <div className="kicker mb-3">Rechtliches</div>
-          <h1 className="font-heading text-4xl font-extrabold text-slate-900">
+          <h1 className="font-heading text-4xl font-extrabold text-slate-800">
             {title}
           </h1>
           <p className="mt-5 text-slate-600 leading-relaxed">{intro}</p>

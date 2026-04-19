@@ -46,9 +46,9 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="section bg-slate-900 text-white relative overflow-hidden"
+      className="section bg-slate-800 text-white relative overflow-hidden"
     >
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950" />
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-800 to-slate-900" />
       <div className="container-xl relative">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="kicker mb-3 !text-amber-400">Leistungen</div>

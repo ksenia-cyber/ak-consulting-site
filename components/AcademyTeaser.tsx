@@ -9,7 +9,7 @@ export default function AcademyTeaser() {
       <div className="container-xl">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="kicker mb-3">Academy</div>
-          <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-slate-900">
+          <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-slate-800">
             Kurse für Entscheider
           </h2>
           <p className="mt-4 text-slate-600">

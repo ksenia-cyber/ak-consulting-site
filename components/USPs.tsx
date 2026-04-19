@@ -25,10 +25,10 @@ export default function USPs() {
         <div className="grid md:grid-cols-3 gap-6">
           {usps.map((u) => (
             <div key={u.title} className="tile">
-              <div className="w-12 h-12 rounded-xl bg-amber-100 text-slate-900 flex items-center justify-center mb-5">
+              <div className="w-12 h-12 rounded-xl bg-amber-100 text-slate-800 flex items-center justify-center mb-5">
                 <u.icon className="w-6 h-6" />
               </div>
-              <h3 className="font-heading font-bold text-xl text-slate-900 mb-2">
+              <h3 className="font-heading font-bold text-xl text-slate-800 mb-2">
                 {u.title}
               </h3>
               <p className="text-slate-600 leading-relaxed">{u.text}</p>

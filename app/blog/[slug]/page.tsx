@@ -30,16 +30,16 @@ export default async function BlogPost({
             <div className="bg-white rounded-2xl p-8 md:p-12 shadow-xl border border-slate-100 max-w-3xl mx-auto">
               <Link
                 href="/blog"
-                className="inline-flex items-center gap-1 text-sm text-slate-500 hover:text-slate-900 mb-6"
+                className="inline-flex items-center gap-1 text-sm text-slate-500 hover:text-slate-800 mb-6"
               >
                 <ArrowLeft className="w-4 h-4" />
                 Zurück zum Blog
               </Link>
 
-              <span className="inline-block px-3 py-1 bg-amber-50 text-slate-950 rounded-full text-xs font-semibold">
+              <span className="inline-block px-3 py-1 bg-amber-50 text-slate-900 rounded-full text-xs font-semibold">
                 {post.category}
               </span>
-              <h1 className="font-heading text-3xl md:text-4xl font-extrabold text-slate-900 mt-4 leading-tight">
+              <h1 className="font-heading text-3xl md:text-4xl font-extrabold text-slate-800 mt-4 leading-tight">
                 {post.title}
               </h1>
               <div className="mt-4 flex items-center gap-4 text-sm text-slate-500">
@@ -58,7 +58,7 @@ export default async function BlogPost({
                   {post.excerpt}
                 </p>
 
-                <h2 className="font-heading text-2xl font-bold text-slate-900 mt-10">
+                <h2 className="font-heading text-2xl font-bold text-slate-800 mt-10">
                   Was dieser Beitrag beantwortet
                 </h2>
                 <p className="text-slate-700 leading-relaxed mt-3">
@@ -69,7 +69,7 @@ export default async function BlogPost({
                   SEO-Anforderungen aus RankMath.
                 </p>
 
-                <h3 className="font-heading text-xl font-bold text-slate-900 mt-8">
+                <h3 className="font-heading text-xl font-bold text-slate-800 mt-8">
                   Typischer Aufbau eines Artikels
                 </h3>
                 <p className="text-slate-700 leading-relaxed mt-3">
@@ -79,7 +79,7 @@ export default async function BlogPost({
                   Rollen im Mittelstand.
                 </p>
 
-                <h3 className="font-heading text-xl font-bold text-slate-900 mt-8">
+                <h3 className="font-heading text-xl font-bold text-slate-800 mt-8">
                   Call-to-Action
                 </h3>
                 <p className="text-slate-700 leading-relaxed mt-3">
@@ -93,7 +93,7 @@ export default async function BlogPost({
                   <div className="font-semibold text-emerald-950">
                     Passende Beratung gesucht?
                   </div>
-                  <p className="text-slate-950 text-sm mt-1">
+                  <p className="text-slate-900 text-sm mt-1">
                     Wir zeigen Ihnen, wie Sie KI-Themen strategisch in Ihrem
                     Unternehmen verankern.
                   </p>
