@@ -1,20 +1,20 @@
-import { Target, Users, Layers } from "lucide-react";
+import { Lightbulb, Users, Compass } from "lucide-react";
 
 const usps = [
   {
-    icon: Target,
-    title: "Praxis statt Theorie",
-    text: "Jedes Kursmodul und jede Empfehlung basiert auf realen Projekten aus der Beratung — kein Lehrbuchwissen.",
+    icon: Lightbulb,
+    title: "Praxis aus echten Projekten",
+    text: "Jeder Kurs entsteht aus konkreten Beratungsmandaten im Mittelstand — kein Lehrbuchwissen, keine Theorie.",
   },
   {
     icon: Users,
-    title: "Für Entscheider gemacht",
-    text: "Kein Tech-Jargon. Wir übersetzen KI-Themen in eine Sprache, die im Führungskreis funktioniert.",
+    title: "Für Unternehmer und Geschäftsführer",
+    text: "Kein Tech-Jargon. KI-Themen übersetzt in die Sprache, in der im Führungskreis entschieden wird.",
   },
   {
-    icon: Layers,
-    title: "Hybrid: Lernen + Beratung",
-    text: "Erst das Fundament durch die Academy, dann individuelle Beratung. Sie entscheiden mit Substanz.",
+    icon: Compass,
+    title: "Lernen und Beratung aus einer Hand",
+    text: "Erst das Fundament durch unsere Academy, bei Bedarf ergänzt durch individuelle Beratung.",
   },
 ];
 

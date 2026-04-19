@@ -1,18 +1,18 @@
 const steps = [
   {
     n: "01",
-    title: "Verstehen",
-    text: "Sie erarbeiten sich über unsere Academy ein fundiertes Basiswissen zu KI, LLMs und Voice AI — in Ihrem Tempo.",
+    title: "Kurs auswählen",
+    text: "Suchen Sie sich den Kurs aus, der zu Ihrer Situation passt — KI-Grundlagen, Voice AI oder Prompt Engineering. Klare Kapitelstruktur, transparente Preise.",
   },
   {
     n: "02",
-    title: "Bewerten",
-    text: "Gemeinsam identifizieren wir Potenziale in Ihrem Unternehmen und bewerten Use Cases nach Nutzen, Aufwand und Risiko.",
+    title: "In Ihrem Tempo durcharbeiten",
+    text: "Lernen wann und wo Sie wollen. Kurze Module, direkt abrufbar, keine festen Termine. Pausieren, wiederholen, zurückspringen — alles jederzeit möglich.",
   },
   {
     n: "03",
-    title: "Entscheiden",
-    text: "Sie erhalten eine klare Empfehlung und konkrete Roadmap. Umsetzung durch Ihr Team oder externe Implementierungspartner.",
+    title: "Wissen direkt anwenden",
+    text: "Jede Lektion schließt mit konkretem Handlungsbezug. Sie nehmen nicht Theorie mit, sondern Entscheidungsgrundlagen für Ihr nächstes KI-Thema.",
   },
 ];
 
@@ -21,13 +21,13 @@ export default function Approach() {
     <section className="section bg-white">
       <div className="container-xl">
         <div className="text-center max-w-2xl mx-auto mb-14">
-          <div className="kicker mb-3">Unser Ansatz</div>
+          <div className="kicker mb-3">Wie funktioniert die Academy</div>
           <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-slate-800">
-            In drei Schritten zur souveränen KI-Entscheidung
+            In drei Schritten zu fundiertem KI-Wissen
           </h2>
           <p className="mt-4 text-slate-600">
-            Wir beraten, wie KI-Lösungen in Ihrem Unternehmen aussehen könnten
-            &mdash; ohne in-house-Umsetzung, dafür mit klarer strategischer Tiefe.
+            Kein Schulungsraum, keine Präsenztermine, keine Zertifikats-Prüfung.
+            Nur Inhalt, der in der Praxis trägt.
           </p>
         </div>
 

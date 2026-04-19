@@ -1,44 +1,16 @@
 import Link from "next/link";
-import {
-  Compass,
-  Mic,
-  Lightbulb,
-  ClipboardCheck,
-  GraduationCap,
-  ShieldCheck,
-  ArrowRight,
-} from "lucide-react";
+import { ClipboardCheck, Mic, ArrowRight } from "lucide-react";
 
 const services = [
   {
-    icon: Compass,
-    title: "KI-Strategie-Workshop",
-    text: "Wir zeigen Ihnen, wo KI in Ihrer Branche heute Mehrwert liefert und wo nicht — inklusive priorisierter Use-Case-Landkarte.",
+    icon: ClipboardCheck,
+    title: "KI-Potenzialanalyse & Roadmap",
+    text: "Wir analysieren Ihre Prozesse strukturiert, identifizieren Use Cases mit dem größten Hebel und erstellen eine priorisierte Roadmap. Umsetzung durch Sie oder externe Partner.",
   },
   {
     icon: Mic,
     title: "Voice-AI-Beratung",
-    text: "Wir beraten Sie, welche Voice-AI-Architektur zu Ihrem Geschäftsmodell passt und welche Anbieter sinnvoll sind.",
-  },
-  {
-    icon: Lightbulb,
-    title: "Use-Case-Identifikation",
-    text: "Strukturierte Analyse Ihrer Prozesse: Wo liegt das größte KI-Potenzial? Gemeinsam bewerten wir Nutzen und Machbarkeit.",
-  },
-  {
-    icon: ClipboardCheck,
-    title: "Vendor-Evaluation",
-    text: "Objektiver Anbietervergleich: Wir zeigen Ihnen Stärken, Schwächen und versteckte Kosten der relevanten KI-Plattformen.",
-  },
-  {
-    icon: GraduationCap,
-    title: "Management-Enablement",
-    text: "Maßgeschneiderte Workshops und Inhouse-Trainings, damit Ihr Führungsteam KI-Entscheidungen mit Substanz trifft.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "EU-AI-Act & Compliance",
-    text: "Wir zeigen Ihnen, wie der EU AI Act Ihre Projekte betrifft und welche Dokumentation für Ihre Use Cases nötig ist.",
+    text: "Herstellerneutraler Anbietervergleich und Architektur-Beratung für Voice-AI-Projekte. Wir zeigen Stärken, Schwächen und echte Kosten der Plattformen — ohne eigenes Tool zu verkaufen.",
   },
 ];
 
@@ -50,19 +22,18 @@ export default function Services() {
     >
       <div className="absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-800 to-slate-900" />
       <div className="container-xl relative">
-        <div className="text-center max-w-2xl mx-auto mb-14">
-          <div className="kicker mb-3 !text-yellow-400">Leistungen</div>
+        <div className="text-center max-w-2xl mx-auto mb-12">
+          <div className="kicker mb-3 !text-yellow-400">Beratung</div>
           <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-white">
-            Was wir für Sie tun können
+            Wenn ein Kurs nicht reicht — unsere Beratung
           </h2>
           <p className="mt-4 text-slate-300">
-            Sechs Beratungsbausteine — einzeln buchbar oder als integriertes
-            Programm. Die Umsetzung erfolgt durch Sie selbst oder durch externe
-            Implementierungspartner.
+            Zwei klar umrissene Bausteine für Situationen, in denen
+            Selbstlernen an Grenzen stößt und Sie externe Perspektive brauchen.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {services.map((s) => (
             <div
               key={s.title}
@@ -71,15 +42,15 @@ export default function Services() {
               <div className="w-12 h-12 rounded-xl bg-yellow-400/20 text-yellow-300 flex items-center justify-center mb-5">
                 <s.icon className="w-6 h-6" />
               </div>
-              <h3 className="font-heading font-bold text-lg text-white mb-2">
+              <h3 className="font-heading font-bold text-xl text-white mb-3">
                 {s.title}
               </h3>
-              <p className="text-slate-300 leading-relaxed mb-5">{s.text}</p>
+              <p className="text-slate-300 leading-relaxed mb-6">{s.text}</p>
               <Link
                 href="#contact"
                 className="inline-flex items-center gap-1.5 text-yellow-300 font-semibold text-sm group-hover:gap-2.5 transition-all"
               >
-                Beratung anfragen
+                Erstgespräch buchen
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
