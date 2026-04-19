@@ -1,19 +1,18 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Sans, IBM_Plex_Serif } from "next/font/google";
+import { Inter, Fraunces } from "next/font/google";
 import "./globals.css";
 
-const plexSans = IBM_Plex_Sans({
+const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
   display: "swap",
-  variable: "--font-plex-sans",
+  variable: "--font-inter",
 });
 
-const plexSerif = IBM_Plex_Serif({
+const fraunces = Fraunces({
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
   display: "swap",
-  variable: "--font-plex-serif",
+  variable: "--font-fraunces",
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
@@ -44,7 +43,7 @@ export default function RootLayout({
   return (
     <html
       lang="de"
-      className={`${plexSans.variable} ${plexSerif.variable} h-full antialiased`}
+      className={`${inter.variable} ${fraunces.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white">{children}</body>
     </html>

@@ -20,7 +20,7 @@ export const posts: Post[] = [
     date: "14. April 2026",
     author: "A&K Consulting",
     readTime: "6 Min.",
-    gradient: "from-emerald-500 to-teal-600",
+    gradient: "from-amber-400 to-teal-600",
   },
   {
     slug: "prompt-fehler-entscheider",
@@ -42,6 +42,6 @@ export const posts: Post[] = [
     date: "02. April 2026",
     author: "A&K Consulting",
     readTime: "8 Min.",
-    gradient: "from-emerald-500 to-emerald-900",
+    gradient: "from-amber-400 to-slate-950",
   },
 ];

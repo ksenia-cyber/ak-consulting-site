@@ -44,7 +44,7 @@ export default function Testimonials() {
               key={t.name}
               className="bg-slate-50 rounded-2xl p-7 relative border border-slate-100"
             >
-              <Quote className="w-10 h-10 text-emerald-200 mb-3" />
+              <Quote className="w-10 h-10 text-amber-200 mb-3" />
               <div className="flex gap-0.5 mb-4">
                 {[0, 1, 2, 3, 4].map((i) => (
                   <Star

@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="section bg-white border-t border-slate-100">
       <div className="container-xl grid lg:grid-cols-2 gap-12 items-center">
         <div className="relative">
-          <div className="aspect-[4/5] max-w-sm mx-auto lg:mx-0 rounded-3xl bg-gradient-to-br from-emerald-800 via-emerald-500 to-emerald-900 relative overflow-hidden">
+          <div className="aspect-[4/5] max-w-sm mx-auto lg:mx-0 rounded-3xl bg-gradient-to-br from-slate-900 via-amber-400 to-slate-950 relative overflow-hidden">
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-white text-center">
                 <div className="font-heading text-6xl font-black opacity-20">AK</div>
@@ -38,7 +38,7 @@ export default function About() {
 
           <div className="mt-8 grid grid-cols-3 gap-4">
             <div>
-              <div className="font-heading text-3xl font-extrabold text-emerald-800">
+              <div className="font-heading text-3xl font-extrabold text-slate-900">
                 15+
               </div>
               <div className="text-sm text-slate-500 mt-1">
@@ -46,7 +46,7 @@ export default function About() {
               </div>
             </div>
             <div>
-              <div className="font-heading text-3xl font-extrabold text-emerald-800">
+              <div className="font-heading text-3xl font-extrabold text-slate-900">
                 DACH
               </div>
               <div className="text-sm text-slate-500 mt-1">
@@ -54,7 +54,7 @@ export default function About() {
               </div>
             </div>
             <div>
-              <div className="font-heading text-3xl font-extrabold text-emerald-800">
+              <div className="font-heading text-3xl font-extrabold text-slate-900">
                 100%
               </div>
               <div className="text-sm text-slate-500 mt-1">
