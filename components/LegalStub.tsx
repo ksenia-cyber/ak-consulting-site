@@ -19,8 +19,8 @@ export default function LegalStub({
           </h1>
           <p className="mt-5 text-slate-600 leading-relaxed">{intro}</p>
 
-          <div className="mt-10 p-6 rounded-xl bg-amber-50 border border-amber-200">
-            <div className="font-semibold text-amber-900">
+          <div className="mt-10 p-6 rounded-xl bg-yellow-50 border border-yellow-200">
+            <div className="font-semibold text-yellow-900">
               Platzhalter-Seite
             </div>
             <p className="text-amber-800 text-sm mt-2 leading-relaxed">

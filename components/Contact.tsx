@@ -15,27 +15,27 @@ export default function Contact() {
   return (
     <section id="contact" className="section bg-slate-800 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-900 to-slate-900" />
-      <div className="absolute top-10 right-10 w-72 h-72 bg-amber-400 rounded-full blur-3xl opacity-40" />
-      <div className="absolute bottom-10 left-10 w-96 h-96 bg-amber-300 rounded-full blur-3xl opacity-30" />
+      <div className="absolute top-10 right-10 w-72 h-72 bg-yellow-400 rounded-full blur-3xl opacity-40" />
+      <div className="absolute bottom-10 left-10 w-96 h-96 bg-yellow-300 rounded-full blur-3xl opacity-30" />
 
       <div className="container-xl grid lg:grid-cols-2 gap-12 items-start relative">
         <div className="text-white">
-          <div className="kicker mb-3 !text-amber-200">Kontakt</div>
+          <div className="kicker mb-3 !text-yellow-200">Kontakt</div>
           <h2 className="font-heading text-3xl md:text-4xl font-extrabold">
             Bereit, KI strategisch in Ihrem Unternehmen einzusetzen?
           </h2>
-          <p className="mt-5 text-amber-100 text-lg leading-relaxed">
+          <p className="mt-5 text-yellow-100 text-lg leading-relaxed">
             Schreiben Sie uns kurz, worum es geht — wir melden uns innerhalb von
             einem Werktag zurück.
           </p>
 
           <div className="mt-10 space-y-5">
-            <div className="flex items-center gap-3 text-amber-100">
+            <div className="flex items-center gap-3 text-yellow-100">
               <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center">
                 <Mail className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-xs uppercase tracking-wider text-amber-300">
+                <div className="text-xs uppercase tracking-wider text-yellow-300">
                   E-Mail
                 </div>
                 <div className="text-white font-medium">
@@ -43,23 +43,23 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-            <div className="flex items-center gap-3 text-amber-100">
+            <div className="flex items-center gap-3 text-yellow-100">
               <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center">
                 <Phone className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-xs uppercase tracking-wider text-amber-300">
+                <div className="text-xs uppercase tracking-wider text-yellow-300">
                   Telefon
                 </div>
                 <div className="text-white font-medium">+49 000 000 000 00</div>
               </div>
             </div>
-            <div className="flex items-center gap-3 text-amber-100">
+            <div className="flex items-center gap-3 text-yellow-100">
               <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center">
                 <Clock className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-xs uppercase tracking-wider text-amber-300">
+                <div className="text-xs uppercase tracking-wider text-yellow-300">
                   Erreichbarkeit
                 </div>
                 <div className="text-white font-medium">
@@ -92,7 +92,7 @@ export default function Contact() {
               name="message"
               rows={4}
               required
-              className="w-full rounded-lg border border-slate-200 px-3 py-2.5 text-sm focus:border-amber-400 focus:ring-2 focus:ring-amber-100 outline-none transition"
+              className="w-full rounded-lg border border-slate-200 px-3 py-2.5 text-sm focus:border-yellow-400 focus:ring-2 focus:ring-yellow-100 outline-none transition"
               placeholder="Worum geht's? In 2-3 Sätzen reicht."
             />
           </div>
@@ -120,7 +120,7 @@ export default function Contact() {
           </button>
 
           {sent && (
-            <div className="mt-4 p-3 bg-amber-50 text-slate-800 text-sm rounded-lg border border-amber-200">
+            <div className="mt-4 p-3 bg-yellow-50 text-slate-800 text-sm rounded-lg border border-yellow-200">
               ✓ Demo: Anfrage erfasst. (Formular ist im Mockup nicht verbunden.)
             </div>
           )}
@@ -150,7 +150,7 @@ function Field({
         name={name}
         type={type}
         required
-        className="w-full rounded-lg border border-slate-200 px-3 py-2.5 text-sm focus:border-amber-400 focus:ring-2 focus:ring-amber-100 outline-none transition"
+        className="w-full rounded-lg border border-slate-200 px-3 py-2.5 text-sm focus:border-yellow-400 focus:ring-2 focus:ring-yellow-100 outline-none transition"
       />
     </div>
   );

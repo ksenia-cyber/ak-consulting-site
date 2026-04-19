@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, EB_Garamond } from "next/font/google";
+import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -8,10 +8,10 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-const garamond = EB_Garamond({
+const manrope = Manrope({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-garamond",
+  variable: "--font-manrope",
   weight: ["400", "500", "600", "700", "800"],
 });
 
@@ -43,7 +43,7 @@ export default function RootLayout({
   return (
     <html
       lang="de"
-      className={`${inter.variable} ${garamond.variable} h-full antialiased`}
+      className={`${inter.variable} ${manrope.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white">{children}</body>
     </html>

@@ -51,7 +51,7 @@ export default function Services() {
       <div className="absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-800 to-slate-900" />
       <div className="container-xl relative">
         <div className="text-center max-w-2xl mx-auto mb-14">
-          <div className="kicker mb-3 !text-amber-400">Leistungen</div>
+          <div className="kicker mb-3 !text-yellow-400">Leistungen</div>
           <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-white">
             Was wir für Sie tun können
           </h2>
@@ -68,7 +68,7 @@ export default function Services() {
               key={s.title}
               className="group rounded-2xl p-8 bg-white/5 border border-white/10 hover:bg-white/10 hover:-translate-y-1 transition-all backdrop-blur"
             >
-              <div className="w-12 h-12 rounded-xl bg-amber-400/20 text-amber-300 flex items-center justify-center mb-5">
+              <div className="w-12 h-12 rounded-xl bg-yellow-400/20 text-yellow-300 flex items-center justify-center mb-5">
                 <s.icon className="w-6 h-6" />
               </div>
               <h3 className="font-heading font-bold text-lg text-white mb-2">
@@ -77,7 +77,7 @@ export default function Services() {
               <p className="text-slate-300 leading-relaxed mb-5">{s.text}</p>
               <Link
                 href="#contact"
-                className="inline-flex items-center gap-1.5 text-amber-300 font-semibold text-sm group-hover:gap-2.5 transition-all"
+                className="inline-flex items-center gap-1.5 text-yellow-300 font-semibold text-sm group-hover:gap-2.5 transition-all"
               >
                 Beratung anfragen
                 <ArrowRight className="w-4 h-4" />

@@ -26,7 +26,7 @@ export default function Newsletter() {
             setSent(true);
             setTimeout(() => setSent(false), 4000);
           }}
-          className="bg-white rounded-2xl p-6 border border-amber-100 shadow-sm"
+          className="bg-white rounded-2xl p-6 border border-yellow-100 shadow-sm"
         >
           <div className="flex items-center gap-2 text-slate-500 text-sm mb-3">
             <Mail className="w-4 h-4" />
@@ -37,7 +37,7 @@ export default function Newsletter() {
               type="email"
               required
               placeholder="ihre.email@unternehmen.de"
-              className="flex-1 rounded-lg border border-slate-200 px-3 py-2.5 text-sm focus:border-amber-400 focus:ring-2 focus:ring-amber-100 outline-none transition"
+              className="flex-1 rounded-lg border border-slate-200 px-3 py-2.5 text-sm focus:border-yellow-400 focus:ring-2 focus:ring-yellow-100 outline-none transition"
             />
             <button className="bg-slate-800 hover:bg-slate-900 text-white font-semibold px-5 py-2.5 rounded-lg transition whitespace-nowrap">
               Abonnieren
@@ -54,7 +54,7 @@ export default function Newsletter() {
             </span>
           </label>
           {sent && (
-            <div className="mt-3 p-2.5 bg-amber-50 text-slate-800 text-xs rounded-md border border-amber-200">
+            <div className="mt-3 p-2.5 bg-yellow-50 text-slate-800 text-xs rounded-md border border-yellow-200">
               ✓ Demo: Anmeldung erfasst. (Im Mockup nicht verbunden.)
             </div>
           )}

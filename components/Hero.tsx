@@ -30,15 +30,15 @@ export default function Hero() {
           </div>
           <div className="mt-10 flex flex-wrap items-center gap-6 text-sm text-slate-500">
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-amber-500" />
+              <span className="w-2 h-2 rounded-full bg-yellow-500" />
               Fokus auf Mittelstand
             </div>
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-amber-500" />
+              <span className="w-2 h-2 rounded-full bg-yellow-500" />
               Praxiserprobt
             </div>
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-amber-500" />
+              <span className="w-2 h-2 rounded-full bg-yellow-500" />
               Kein Tech-Jargon
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function Hero() {
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-slate-900/70 via-slate-800/20 to-transparent" />
             <div className="absolute bottom-8 left-8 right-8 text-white">
-              <div className="text-xs uppercase tracking-widest text-amber-300 mb-2">
+              <div className="text-xs uppercase tracking-widest text-yellow-300 mb-2">
                 A&amp;K Consulting
               </div>
               <div className="font-heading text-2xl font-bold leading-tight">
